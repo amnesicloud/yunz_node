@@ -14,7 +14,7 @@ class GetListElementByIndex:
     CATEGORY = f"Yunz"
 
     def get_element(self, list, index):
-        return (str(list(index)),)
+        return (str(list[index]),)
 
 
 NODE_DISPLAY_NAME_MAPPINGS = {
